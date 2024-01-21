@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float layout</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header,footer {
+            height: 40px;
+            background-color: olivedrab;
+        }
+        #left,#right{
+            height: 200px;
+        }
+        #left{
+            width: 30%;
+            background-color: khaki;
+            float: left;
+        }
+        #right{
+            width: 70%;
+            background-color: orange;
+            float: right;
+        }
+        footer{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>this is header</header>
+        <section id="left">left section</section>
+        <section id="right">right section</section>
+        <footer>footer section</footer>
+    </div>
+    
+</body>
+</html>

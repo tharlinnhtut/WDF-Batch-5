@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS z-index Property</title>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .bg-orange{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+    }
+    .bg-greenyellow{
+        background-color: greenyellow;
+        top: 40px;
+        left: 40px;
+        z-index: 2;
+    }
+    .bg-skyblue{
+        background-color: skyblue;
+        top: 80px;
+        left: 80px;
+        z-index: 3;
+    }
+</style>
+
+
+</head>
+<body>
+    <!-- The z-index property is used to control the stacking order of
+    elements in a web page when they overlap. It determines which elements
+    should appear in front of or behind others in the z-axis, which is
+    perpendicular to the screen. Elements with higher z-index values are stacked
+    on top of elements with lower z-index values. -->
+
+    <h1>CSS z-index Property</h1>
+    <div class="box bg-orange"></div>
+    <div class="box bg-greenyellow"></div>
+    <div class="box bg-skyblue"></div>
+</body>
+</html>

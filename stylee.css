@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Sevillana&display=swap');
 
 body{
@@ -15,3 +16,22 @@ ol{
 ul{
     color: rgb(71, 5, 92);
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Sevillana&display=swap');
+
+body{
+    font-family:'Exo 2', sans-serif;
+}
+
+th{
+    color: tomato;    
+}
+
+ol{
+    color: rgb(3, 132, 85);
+}
+
+ul{
+    color: rgb(71, 5, 92);
+}
+>>>>>>> 02022650359deee984353b0415034e0dc7940bf6

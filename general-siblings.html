@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General adjecent Siblings Selectors</title>
+    <style>
+      div ~ p {
+        color: brown;
+      }
+      div + p {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque
+        illum odit exercitationem iste, consequuntur dolor repellendus
+        reiciendis illo est, distinctio repellat, voluptatum doloremque harum
+        dolorem. Id tenetur illum voluptates?
+      </p>
+      <div>
+        <p>paragraph under div.</p>
+      </div>
+      <p>paragraph outside div.</p>
+      <p>paragraph outside div.</p>
+    </div>
+  </body>
+</html>
